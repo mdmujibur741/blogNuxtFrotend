@@ -1,5 +1,7 @@
 <template>
   <div class="">
+    <NuxtLoadingIndicator />
+
     <FrontendTopMenu />
 
     <main class="w-11/12 mx-auto p-3">
@@ -14,6 +16,7 @@
 <script setup>
 import { computed } from "vue";
 import { useColors } from "vuestic-ui";
+import Preloader from '~/components/Preloader.vue';
 
 const { currentPresetName } = useColors();
 
