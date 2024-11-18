@@ -35,7 +35,6 @@
       <!-- Mobile Menu -->
       <div v-if="menuOpen" class="md:hidden bg-white shadow-lg rounded-lg p-4 space-y-4">
         <nuxt-link to="/" class="text-gray-700 hover:text-gray-900">Home</nuxt-link> 
-          
         <a href="#" class="block text-gray-700 hover:text-gray-900">About</a>
         <nuxt-link to="/blogs" class="text-gray-700 hover:text-gray-900">Blogs</nuxt-link>
         <a href="#" class="block text-gray-700 hover:text-gray-900">Contact</a>
