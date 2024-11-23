@@ -4,6 +4,7 @@
           :src="`https://picsum.photos/${numberGenerate(sr)}`"
           alt="Blog Image"
           class="w-full h-36 object-cover"
+          loading="lazy"
         />
         <div class="p-6">
           <h3 class="text-xl font-bold text-gray-800 mb-4"> {{ bl.title }} </h3>

@@ -1,7 +1,8 @@
 <template>
   <FrontLayout v-if="status=='success'">
     <section class="bg-cover mb-3 bg-center">
-      <VaCarousel v-model="value" :items="items" />
+      <VaCarousel v-model="value" :items="items" lazy="true"/>
+
     </section>
 
     <!-- Blog Posts -->
