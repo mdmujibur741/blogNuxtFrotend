@@ -1,7 +1,8 @@
 <template>
     <div v-for="(bl, sr) in blog" :key="bl.id" class="bg-white rounded-lg shadow-lg overflow-hidden">
         <img
-          :src="`https://picsum.photos/${numberGenerate(sr)}`"
+        
+          :src="`https://picsum.photos/604`"
           alt="Blog Image"
           class="w-full h-36 object-cover"
           loading="lazy"

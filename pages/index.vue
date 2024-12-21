@@ -1,9 +1,9 @@
 <template>
   <FrontLayout v-if="status=='success'">
-    <section class="bg-cover mb-3 bg-center">
+    <!-- <section class="bg-cover mb-3 bg-center">
       <VaCarousel v-model="value" :items="items" lazy="true"/>
 
-    </section>
+    </section> -->
 
     <!-- Blog Posts -->
     <section class="mb-3 p-5 shadow-lg bg-white">

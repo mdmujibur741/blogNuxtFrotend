@@ -42,6 +42,7 @@ import FrontLayout from "~/layouts/FrontLayout.vue";
 import { useApiFetch } from "~/composable/useApiFetch";
 
 
+
 const router = useRoute();
 const slug =router.params.id;
 
@@ -59,7 +60,7 @@ useHead({
 
 
 const items = ref([
-  "https://picsum.photos/1500",
+  //abcImage,
   "https://picsum.photos/1501",
   "https://picsum.photos/1502",
   "https://picsum.photos/1503",
